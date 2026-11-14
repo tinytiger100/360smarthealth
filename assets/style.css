@@ -23,6 +23,8 @@ h1{font-size:2rem;margin:.4em 0 .6em}
 .hero-btns{position:absolute;left:0;right:0;bottom:12%;text-align:center}
 .btn{display:inline-block;background:#1c1d1d;color:#fff;text-decoration:none;padding:12px 26px;border-radius:2px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;font-size:.85rem;margin:4px;border:2px solid #1c1d1d}
 .btn:hover{background:#02698c;border-color:#02698c}
+.btn.btn-green{background:#0f6b3c;border-color:#0f6b3c;color:#fff}
+.btn.btn-green:hover{background:#0a5230;border-color:#0a5230;color:#fff}
 .btn-outline{background:transparent;color:#1c1d1d}
 .btn-outline:hover{color:#fff}
 .btn-small{padding:7px 16px;font-size:.75rem}
@@ -70,7 +72,31 @@ section.wrap.narrow{margin-bottom:60px}
 .site-footer ul{list-style:none;padding:0;margin:0}
 .footer-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:30px}
 .site-footer h4{color:#fff;text-transform:uppercase;letter-spacing:.1em;font-size:.85rem}
-.copyright{font-size:.8rem;color:#aaa;border-top:1px solid #333;margin-top:30px;padding-top:16px}
+.copyright{font-size:.9rem;color:#f4f4f4;border-top:1px solid #555;margin-top:30px;padding:16px 0 8px;overflow-wrap:anywhere}
+.copyright p{margin:0 0 .55em}
+.copyright p:last-child{margin:0}
+.btn-wrap{max-width:100%;white-space:normal;text-align:center}
+.refs{padding-left:1.25em}
+.refs li{margin:0 0 1em}
+.refs a{overflow-wrap:anywhere}
+.visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.patent-list{padding-left:1.25em}
+.patent-list li{margin:0 0 .75em}
+.disclosure{font-size:.95rem;text-align:center;margin:.35em auto .9em;max-width:36rem}
+.reviewed,.byline{font-size:.9rem;color:#333;margin:0 0 1.2em}
+.feature-blurb{border:1px solid #e8e8e1;background:#f9f9f9;padding:24px;margin:8px 0 28px}
+.feature-blurb h2{margin-top:0}
+.faq-block h3{font-size:1.05rem;margin:1.15em 0 .25em}
+.sources{font-size:.9rem}
+.sources a,.article-list a{overflow-wrap:anywhere}
+.article-list{list-style:none;padding:0;margin:1em 0 0}
+.article-list li{border-top:1px solid #e8e8e1;padding:18px 0}
+.article-list h2{font-size:1.25rem;margin:0 0 .35em}
+.newsletter h2{margin-top:0}
+.newsletter .field{margin:0 0 14px;text-align:left}
+.newsletter label{display:block;font-weight:600;margin:0 0 4px}
+.newsletter input{font-family:inherit;font-size:1rem;width:100%;max-width:28rem;padding:10px 12px;border:1px solid #c8c8c0;border-radius:2px;background:#fff;color:#1c1d1d}
+.newsletter input:focus{outline:2px solid #02698c;outline-offset:2px}
 @media (max-width:800px){
  .menu-btn{display:block;font-size:1.8rem;cursor:pointer}
  .site-nav{display:none;width:100%}
